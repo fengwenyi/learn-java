@@ -45,4 +45,4 @@ Java 学习笔记
 
 ## Lisence
 
-   Lisenced under [Apache 2.0 lisence](https://opensource.org/licenses/Apache-2.0)
+Lisenced under [Apache 2.0 lisence](https://opensource.org/licenses/Apache-2.0)
