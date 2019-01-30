@@ -29,5 +29,5 @@ Java 学习笔记
 - IDEA
 
 <div>
-<iframe src="./AUTHOR.md" width="100%" frameborder="0"></iframe>
+<iframe src="https://www.baidu.com" width="100%" frameborder="0"></iframe>
 </div>
