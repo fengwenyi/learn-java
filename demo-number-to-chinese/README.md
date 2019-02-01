@@ -1,3 +1,7 @@
+# Demo Number to Chinese
+
+示例：数字显示汉字读法。如：1234，读作：一千二百三十四。
+
 
 ## 作者
 
@@ -9,9 +13,7 @@
 
 - [CSDN](https://blog.csdn.net/qq_28336351)
 
-- [开源中国-个人博客](https://my.oschina.net/fengwenyi)
-
-- [慕课-手记](https://www.imooc.com/u/2815937)
+- [慕课](https://www.imooc.com/u/2815937)
 
 - 邮箱：xfsy_2015@163.com
 
