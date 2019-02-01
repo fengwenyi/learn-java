@@ -32,6 +32,11 @@ public class NumberToChinese {
             result[i] = String.valueOf(input.charAt(i));
         }
 
+        /*
+        input=1234
+        result=1234
+         */
+
         for (int i = 0; i < result.length; i++) {
             if (!result[i].equals("0")) {
                 back = result.length - i - 1;

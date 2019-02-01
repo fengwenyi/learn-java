@@ -6,6 +6,7 @@ Java 学习笔记
 
 - [hello-world](./hello-world)：Java 学习入门例子
 
+- [demo-number-to-chinese](./demo-number-to-chinese)：用汉字显示数字的读法，模拟支付宝到账提醒
 
 ## 计划
 
@@ -13,7 +14,9 @@ Java 学习笔记
 
 * [ ] Java基础系列
 
-* [ ] Java应用系列
+* [x] Java应用示例1：[模拟支付宝到账提醒](./demo-number-to-chinese)
+
+* [ ] Java应用示例2
 
 * [ ] JavaEE系列
 
