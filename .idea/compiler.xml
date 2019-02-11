@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="com.fengwenyi.demo-javalib-result.main" target="11" />
+      <module name="com.fengwenyi.demo-javalib-result.test" target="11" />
       <module name="com.fengwenyi.okhttp-demo.main" target="11" />
       <module name="com.fengwenyi.okhttp-demo.test" target="11" />
     </bytecodeTargetLevel>

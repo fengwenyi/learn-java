@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.fengwenyi.demo-javalib-result.iml" filepath="$PROJECT_DIR$/.idea/modules/com.fengwenyi.demo-javalib-result.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.fengwenyi.demo-javalib-result.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.fengwenyi.demo-javalib-result.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.fengwenyi.demo-javalib-result.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.fengwenyi.demo-javalib-result.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-number-to-chinese/demo-number-to-chinese.iml" filepath="$PROJECT_DIR$/demo-number-to-chinese/demo-number-to-chinese.iml" />
       <module fileurl="file://$PROJECT_DIR$/hello-world/hello-world.iml" filepath="$PROJECT_DIR$/hello-world/hello-world.iml" />
     </modules>
