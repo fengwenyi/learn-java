@@ -18,7 +18,9 @@ import java.util.UUID;
  * @since 2019-02-05
  */
 @RestController
-@RequestMapping(value = "/user", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+@RequestMapping(value = "/user",
+        consumes = MediaType.APPLICATION_JSON_UTF8_VALUE,
+        produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
 public class UserController {
 
     /** 临时存放用户信息 */
@@ -44,14 +46,16 @@ public class UserController {
 
     /**
      * 添加用户
-     * @param name 姓名
-     * @param age 年龄
+     * @param userModel 这里传JSON字符串
      * @return {@link Result}
      */
     @PostMapping("/add")
-    public Result add(String name, Integer age) {
-        userModelList.add(new UserModel().setUid(UUID.randomUUID().toString()).setName(name).setAge(age));
-        return Result.success();
+    public Result add(@RequestBody UserModel userModel) {
+        if (userModel != null) {
+            userModelList.add(userModel.setUid(UUID.randomUUID().toString()));
+            return Result.success();
+        }
+        return Result.error();
     }
 
     /**
@@ -67,6 +71,15 @@ public class UserController {
             if (userModel.getUid().equals(uid))
                 return Result.success(userModel);
         return Result.error(CodeMsg.ERROR_USER_NOT_EXIST);
+    }
+
+    /**
+     * 测试参数错误
+     * @return {@link Result}
+     */
+    @GetMapping("/test-param-error")
+    public Result testParamError() {
+        return Result.error(CodeMsg.ERROR_PARAM_ILLEGAL.fillArgs("account"));
     }
 
 }

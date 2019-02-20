@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        springBootVersion = '2.1.2.RELEASE'
+        springBootVersion = '2.1.3.RELEASE'
     }
     repositories {
         mavenCentral()
@@ -16,7 +16,7 @@ apply plugin: 'io.spring.dependency-management'
 
 group = 'com.fengwenyi'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '11'
+sourceCompatibility = '1.8'
 
 repositories {
     mavenCentral()

@@ -5,8 +5,8 @@
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="com.fengwenyi.demo-javalib-result.main" target="11" />
-      <module name="com.fengwenyi.demo-javalib-result.test" target="11" />
+      <module name="com.fengwenyi.demo-javalib-result.main" target="1.8" />
+      <module name="com.fengwenyi.demo-javalib-result.test" target="1.8" />
       <module name="com.fengwenyi.okhttp-demo.main" target="11" />
       <module name="com.fengwenyi.okhttp-demo.test" target="11" />
     </bytecodeTargetLevel>

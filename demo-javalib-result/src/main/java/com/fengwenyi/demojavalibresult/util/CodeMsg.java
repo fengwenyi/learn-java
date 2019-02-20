@@ -14,7 +14,13 @@ public class CodeMsg {
     ------------------------------------------------------------------------------------------------------------*/
     /** 用户不存在 */
     public static final BaseCodeMsg ERROR_USER_NOT_EXIST = BaseCodeMsg.app(10001, "User Not Exist");
+
     /** UID不能为空 */
     public static final BaseCodeMsg ERROR_USER_UID_NOT_NULL = BaseCodeMsg.app(10002, "User UID Must Not null");
+
+    /*
+    param error
+    ------------------------------------------------------------------------------------------------------------*/
+    public static final BaseCodeMsg ERROR_PARAM_ILLEGAL = BaseCodeMsg.app(20001, "Request Param Illegal : %s");
 
 }
